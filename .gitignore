@@ -1,0 +1,40 @@
+/backend/node_modules
+/messenger/node_modules
+/messenger/.next
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+
+/messenger/.pnp
+/messenger/.pnp.js
+/messenger/.yarn/install-state.gz
+
+# testing
+/messenger/coverage
+
+# next.js
+/messenger/.next/
+/messenger/out/
+
+# production
+/messenger/build
+
+# misc
+/messenger/.DS_Store
+/messenger/*.pem
+
+# debug
+/messenger/npm-debug.log*
+/messenger/yarn-debug.log*
+/messenger/yarn-error.log*
+
+# local env files
+/messenger/.env*.local
+
+# vercel
+/messenger/.vercel
+
+# typescript
+/messenger/*.tsbuildinfo
+/messenger/next-env.d.ts
